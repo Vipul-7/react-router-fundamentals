@@ -16,7 +16,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  /* -webkit-text-size-adjust: 100%; */
 
   --color-gray-100: #f4f3f1;
   --color-gray-200: #dddbd8;
@@ -47,4 +47,9 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+main{
+  margin: 2rem auto;
+  text-align: center;
 }
